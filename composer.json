@@ -1,0 +1,24 @@
+{
+  "name": "KirillPermyakov/SimpleBlog",
+  "description": "simple module blog",
+  "keywords": [
+    "yii",
+    "yii2",
+    "module"
+  ],
+  "type": "yii2-module",
+  "authors": [
+    {
+      "name": "Kyrylo",
+      "email": "permyakov.kirill@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-app-basic": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\modules\\Blog": ""
+    }
+  }
+}

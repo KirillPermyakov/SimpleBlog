@@ -20,4 +20,8 @@ composer require kyrylo-permiakov/simple-blog
     
 3)Выполните миграции в папке blog/migrations
     
-4)Блог доступен по адресу localhost/blog
+4) Если у вас включены prettyUrl то
+Блог доступен по адресу localhost/blog
+
+Если выключены то 
+Блог доступен по адресу localhost/index.php?r=blog
